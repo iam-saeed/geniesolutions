@@ -42,7 +42,7 @@ width: 80%;
 height: 40vw;
 `
 const Title = style.span`
-font-size: 70px;
+font-size: 50px;
 margin-left: 20px;
 @media only screen and (max-width:480px){
     font-size: 50px;
@@ -93,7 +93,7 @@ margin-top: 20px;
 cursor: pointer;
 @media only screen and (min-width:1000px){
     font-size: 14px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 `
 
