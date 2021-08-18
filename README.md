@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# GENIE SOLUTIONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Magic Solution.
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+Good design, good business.
 
 ### `yarn start`
 

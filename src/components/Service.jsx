@@ -100,6 +100,9 @@ margin-top: 50px;
 cursor: pointer;
 display: flex;
 align-items: center;
+@media only screen and (max-width:480px){
+   margin-bottom: 20px;
+}
 `
 
 const IconImg = style.img`

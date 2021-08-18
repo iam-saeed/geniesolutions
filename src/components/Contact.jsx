@@ -224,12 +224,12 @@ const Contact = () => {
                     <Title>Interested? <br /> Let's Get In Touch</Title>
                     <Form onSubmit={sendEmail}>
                     <LeftForm>
-                        <Input placeholder="Your Name" name="name" />
-                        <Input placeholder="Your Email" name="email"/>
-                        <Input placeholder="Subject" name="subject" />
+                        <Input placeholder="Your Name" name="name" required />
+                        <Input placeholder="Your Email" name="email" required />
+                        <Input placeholder="Subject" name="subject" required />
                     </LeftForm>
                     <RightForm>
-                        <TextArea placeholder="Your Message" name="message" />
+                        <TextArea placeholder="Your Message" name="message" required />
                         <Button>Send Message</Button>
                     </RightForm>
                     </Form>
