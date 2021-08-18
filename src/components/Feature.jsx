@@ -43,7 +43,8 @@ height: 40vw;
 `
 const Title = style.span`
 font-size: 70px;
-@media only screen and (max-width:850px){
+margin-left: 20px;
+@media only screen and (max-width:480px){
     font-size: 50px;
 }
 @media only screen and (max-width:1080px){
@@ -53,6 +54,7 @@ font-size: 70px;
 const SubTitle = style.span`
 margin-top: 30px;
 font-size: 24px;
+margin-left: 20px;
 font-style: italic;
 color: #333;
 @media only screen and (max-width:480px){
@@ -66,15 +68,15 @@ color: #333;
 
 const Description = style.p`
 font-size: 20px;
+margin-left: 20px;
 color: #777;
 margin-top: 30px;
 @media only screen and (max-width:480px){
     font-size: 18px;
-   
+    margin-left: 20px;
 }
 @media only screen and (min-width:1080px){
     font-size: 20px;
-    margin-left: 40px;
 }
 
 `
