@@ -70,7 +70,7 @@ const Navbar = () => {
                     <MenuItem><a href='#contact' style={{ "text-decoration": 'none', "color": "gray" }}>Contact</a></MenuItem>
                 </Menu>
                 </Left>
-                <Button>GET IN TOUCH</Button>
+                <Button><a href='#contact' style={{ "text-decoration": 'none', "color": "#fff" }}>Find A Solution</a></Button>
             </Wrapper>
         </Container>
     )
