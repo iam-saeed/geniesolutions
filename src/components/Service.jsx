@@ -14,6 +14,10 @@ height: 100%;
     flex-direction: column;
     font-size: 12px;
 }
+@media only screen and (max-width:1080px){
+    flex-direction: column;
+    font-size: 12px;
+}
 `
 
 const Image = style.img`
@@ -33,6 +37,9 @@ margin: auto;
 @media only screen and (max-width:480px){
     width: 100%;
 }
+@media only screen and (min-width:1080px){
+    width: 100%;
+}
 `
 
 const Left = style.div`
@@ -42,10 +49,16 @@ margin-bottom: -125px;
 @media only screen and (max-width:480px){
    display: none;
 }
+@media only screen and (max-width:1080px){
+    display: none;
+ }
 `
 const Right = style.div`
 width: 50%;
 @media only screen and (max-width:480px){
+    width: 100%
+}
+@media only screen and (max-width:1080px){
     width: 100%
 }
 `
@@ -54,6 +67,9 @@ padding: 50px;
 display: flex;
 flex-direction: column;
 @media only screen and (max-width:480px){
+    padding: 20px;
+}
+@media only screen and (max-width:1080px){
     padding: 20px;
 }
 `

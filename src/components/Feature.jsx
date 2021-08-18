@@ -8,10 +8,17 @@ display: flex;
    flex-direction: column;
    padding: 30px 20px;
 }
+@media only screen and (max-width:1080px){
+    flex-direction: column;
+    padding: 30px 20px;
+ }
 `
 const Left = style.div`
 width: 50%;
 @media only screen and (max-width:480px){
+    display: none;
+}
+@media only screen and (max-width:1080px){
     display: none;
 }
 `
@@ -22,6 +29,9 @@ flex-direction: column;
 justify-content: center;
 margin-top: 30px;
 @media only screen and (max-width:480px){
+    width: 100%
+}
+@media only screen and (max-width:1080px){
     width: 100%
 }
 `
@@ -35,11 +45,9 @@ const Title = style.span`
 font-size: 70px;
 @media only screen and (max-width:850px){
     font-size: 50px;
-    margin-left: 35px;
 }
-@media only screen and (min-width:1300px){
-    font-size: 50px;
-    margin-left: 40px;
+@media only screen and (max-width:1080px){
+    font-size: 40px;
 }
 `
 const SubTitle = style.span`
@@ -50,9 +58,9 @@ color: #333;
 @media only screen and (max-width:480px){
     width: 100%;
 }
-@media only screen and (min-width:1000px){
+@media only screen and (max-width:1080px){
     font-size: 20px;
-    margin-left: 40px;
+    font-size: 20px;
 }
 `
 
@@ -60,11 +68,11 @@ const Description = style.p`
 font-size: 20px;
 color: #777;
 margin-top: 30px;
-@media only screen and (min-width:1000px){
-    font-size: 14px;
-    margin-left: 40px;
+@media only screen and (max-width:480px){
+    font-size: 18px;
+   
 }
-@media only screen and (min-width:1300px){
+@media only screen and (min-width:1080px){
     font-size: 20px;
     margin-left: 40px;
 }

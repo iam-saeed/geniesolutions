@@ -17,6 +17,11 @@ const Container = style.div`
         margin-bottom: 10px;
         padding: 10px;
     }
+    @media only screen and (max-width:1080px){
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
     
 `
 const PriceContainer = style.div`
@@ -29,6 +34,9 @@ font-size: 50px;
 @media only screen and (max-width:480px){
     font-size: 30px;
 }
+@media only screen and (max-width:1080px){
+    font-size: 30px;
+}
 `
 const Type = style.button`
     padding: 10px;
@@ -37,6 +45,9 @@ const Type = style.button`
     color: #fc8e2e;
     background-color: #fff;
     @media only screen and (max-width:480px){
+        display: none;
+    }
+    @media only screen and (max-width:1080px){
         display: none;
     }
 `
@@ -60,6 +71,10 @@ const Button = style.button`
     border-radius: 10px;
     cursor: pointer;
     @media only screen and (max-width:480px){
+        font-size: 12px;
+        padding: 8px;
+    }
+    @media only screen and (max-width:1080px){
         font-size: 12px;
         padding: 8px;
     }

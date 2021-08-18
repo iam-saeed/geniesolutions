@@ -18,6 +18,11 @@ justify-content: center;
 @media only screen and (max-width:480px){
     flex-direction: column;
 }
+@media only screen and (max-width:1080px){
+    flex-direction: column;
+}
+
+
 `
 
 const Form = styled.form`
@@ -26,6 +31,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 @media only screen and (max-width:480px){
+    flex-direction: column;
+}
+@media only screen and (max-width:1080px){
     flex-direction: column;
 }
 `
@@ -41,6 +49,10 @@ const LeftForm = styled.div`
         height: 50%;
         margin-right: 0px;
     }
+    @media only screen and (max-width:1080px){
+        height: 50%;
+        margin-right: 0px;
+    }
 `
 
 const RightForm = styled.div`
@@ -51,11 +63,17 @@ justify-content: space-between;
 @media only screen and (max-width:480px){
     width: 50%
 }
+@media only screen and (max-width:1080px){
+    width: 50%
+}
 `
 
 const FormContainer = styled.div`
 width: 50%;
 @media only screen and (max-width:480px){
+    width: 100%
+}
+@media only screen and (max-width:1080px){
     width: 100%
 }
 `
@@ -68,6 +86,9 @@ const Title = styled.h1`
     @media only screen and (max-width:480px){
         margin: 20px;
     }
+    @media only screen and (max-width:1080px){
+        margin: 20px;
+    }
 `
 
 const Input = styled.input`
@@ -76,12 +97,21 @@ const Input = styled.input`
     @media only screen and (max-width:480px){
         padding: 5px;
     }
+    @media only screen and (max-width:1080px){
+        padding: 5px;
+    }
 `
 const TextArea = styled.textarea`
 width: 200px;
 height: 60%;
 padding: 20px;
 @media only screen and (max-width:480px){
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: -22px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:1080px){
     padding: 5px;
     margin-top: 15px;
     margin-left: -22px;
@@ -105,6 +135,12 @@ const Button = styled.button`
         margin-bottom: 20px;
         
     }
+    @media only screen and (max-width:1080px){
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        
+    }
 `
 
 
@@ -117,6 +153,10 @@ align-items: center;
     width: 100%
     margin-top: 20px;
 }
+@media only screen and (max-width:1080px){
+    width: 100%
+    margin-top: 20px;
+}
 `
 
 const AddressItem = styled.div`
@@ -125,6 +165,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-bottom: 50px;
+@media only screen and (max-width:480px){
+    margin-bottom: 20px;
+}
 @media only screen and (max-width:480px){
     margin-bottom: 20px;
 }
@@ -145,7 +188,7 @@ const Text = styled.span`
     align-items: center;
     @media only screen and (max-width:480px){
         width: 100%
-
+        font-size: 10px;
     }
 `
 
@@ -154,6 +197,10 @@ display: flex;
 justify-content: center;
 margin-top: 20px;
 color: green;
+@media only screen and (max-width:480px){
+    font-size: 10px;
+    margin-bottom: 10px;
+}
 `
 
 const Contact = () => {

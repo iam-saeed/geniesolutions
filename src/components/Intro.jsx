@@ -10,6 +10,9 @@ padding: 20px;
 @media only screen and (max-width: 480px){
     flex-direction: column;
 }
+@media only screen and (max-width: 1080px){
+    flex-direction: column;
+}
 `
 const Left = styled.div`
 display: flex;
@@ -21,11 +24,19 @@ width: 60%;
     width: 100%;
     height: 100%;
 }
+@media only screen and (max-width:1080px){
+    width: 100%;
+    height: 100%;
+}
 `
 const Title = styled.h1`
 width: 60%;
 font-size: 60px;
 @media only screen and (max-width:480px){
+    font-size: 50px;
+    width: 100%
+}
+@media only screen and (max-width:1080px){
     font-size: 50px;
     width: 100%
 }
@@ -35,6 +46,9 @@ width: 60%;
 font-size: 20px;
 margin-top: 20px;
 @media only screen and (max-width:480px){
+    width: 100%
+}
+@media only screen and (max-width:1080px){
     width: 100%
 }
 `
@@ -51,6 +65,9 @@ const Button = styled.button`
     @media only screen and (max-width:480px){
         margin-bottom: 20px;
     }
+    @media only screen and (max-width:1080px){
+        margin-bottom: 20px;
+    }
 `
 const Contact = styled.div`
 display: flex;
@@ -63,10 +80,16 @@ font-weight: bold;
 @media only screen and (max-width:480px){
     color: black;
 }
+@media only screen and (max-width:1080px){
+    color: black;
+}
 `
 const ContactText = styled.span`
 color: gray;
 @media only screen and (max-width:480px){
+    color: black;
+}
+@media only screen and (max-width:1080px){
     color: black;
 }
 `
@@ -81,6 +104,10 @@ justify-content: space-between;
     width: 100%;
     flex-direction: column;
 }
+@media only screen and (max-width:1080px){
+    width: 100%;
+    flex-direction: column;
+}
 `
 
 const Right = styled.div`
@@ -89,6 +116,10 @@ height: 100%;
 margin-bottom: -125px;
 @media only screen and (max-width:480px){
     display: none;
+}
+    @media only screen and (max-width:1080px){
+    display: none;
+    }
 `
 
 const Image = styled.img`
